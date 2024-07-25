@@ -8,7 +8,7 @@ const port = 3000;
 const masterKey = "4VGP2DN-6EWM4SJ-N6FGRHV-Z3PR3TT";
 
 var jokes = jokesData;
-var currId = 101;
+var currId = 1296;
 
 app.use (morgan ('dev'));
 app.use (bodyParser.urlencoded ({ extended: true }));
